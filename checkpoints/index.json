@@ -1,0 +1,164 @@
+[
+  {
+    "dataset": "kaist",
+    "fold": 0,
+    "seed": 20261014,
+    "epoch": 60,
+    "checkpoint": "checkpoints/kaist/fold0/seed20261014.pt",
+    "predictions": "results/reference/kaist_fold0_seed20261014.npz",
+    "sha256": "f5011871665bc11b1792ed54b249c17ae75c9dd47f9af8b040e5db5e34827e2a"
+  },
+  {
+    "dataset": "kaist",
+    "fold": 0,
+    "seed": 20261015,
+    "epoch": 110,
+    "checkpoint": "checkpoints/kaist/fold0/seed20261015.pt",
+    "predictions": "results/reference/kaist_fold0_seed20261015.npz",
+    "sha256": "eb5fce38439f26c9b41b67e28fe91da5a0dfe7097eb5359fcf7e23bba54ea1de"
+  },
+  {
+    "dataset": "kaist",
+    "fold": 0,
+    "seed": 20261016,
+    "epoch": 120,
+    "checkpoint": "checkpoints/kaist/fold0/seed20261016.pt",
+    "predictions": "results/reference/kaist_fold0_seed20261016.npz",
+    "sha256": "fbd84249f2b13c662ce983baefc7446ecefd26bf5d964766d7319913d6c57ede"
+  },
+  {
+    "dataset": "kaist",
+    "fold": 1,
+    "seed": 20261014,
+    "epoch": 40,
+    "checkpoint": "checkpoints/kaist/fold1/seed20261014.pt",
+    "predictions": "results/reference/kaist_fold1_seed20261014.npz",
+    "sha256": "294fa45649eb602fffcf1eb49d57d188349734d1cdcbda3dbbba58ce9355ac9d"
+  },
+  {
+    "dataset": "kaist",
+    "fold": 1,
+    "seed": 20261015,
+    "epoch": 100,
+    "checkpoint": "checkpoints/kaist/fold1/seed20261015.pt",
+    "predictions": "results/reference/kaist_fold1_seed20261015.npz",
+    "sha256": "344cf159d13176f78ac499c8385b67aab6982fc7a9475ae5ece9ace7054e475f"
+  },
+  {
+    "dataset": "kaist",
+    "fold": 1,
+    "seed": 20261016,
+    "epoch": 20,
+    "checkpoint": "checkpoints/kaist/fold1/seed20261016.pt",
+    "predictions": "results/reference/kaist_fold1_seed20261016.npz",
+    "sha256": "066959ffac4b1ec47858aba04f54951f67637928693a7b4168e9de1fea7eeacb"
+  },
+  {
+    "dataset": "kaist",
+    "fold": 2,
+    "seed": 20261014,
+    "epoch": 90,
+    "checkpoint": "checkpoints/kaist/fold2/seed20261014.pt",
+    "predictions": "results/reference/kaist_fold2_seed20261014.npz",
+    "sha256": "df1908e7b43849e2d5774155141c3dac4260cee07b2c5a3bb2d4f1e7529d52b3"
+  },
+  {
+    "dataset": "kaist",
+    "fold": 2,
+    "seed": 20261015,
+    "epoch": 60,
+    "checkpoint": "checkpoints/kaist/fold2/seed20261015.pt",
+    "predictions": "results/reference/kaist_fold2_seed20261015.npz",
+    "sha256": "82f02fc90d24f71695b8cd8a71145e7007ea52815fa00fae65fafbf9595b72e4"
+  },
+  {
+    "dataset": "kaist",
+    "fold": 2,
+    "seed": 20261016,
+    "epoch": 90,
+    "checkpoint": "checkpoints/kaist/fold2/seed20261016.pt",
+    "predictions": "results/reference/kaist_fold2_seed20261016.npz",
+    "sha256": "57b98246c7ec4cd73536d4bf878e2531e233272e3cb111f3ac3ffd163023abfb"
+  },
+  {
+    "dataset": "ceitec",
+    "fold": 0,
+    "seed": 20261014,
+    "epoch": 40,
+    "checkpoint": "checkpoints/ceitec/fold0/seed20261014.pt",
+    "predictions": "results/reference/ceitec_fold0_seed20261014.npz",
+    "sha256": "4367ed296827ff4ba08835d5a20cbc9493552e1d09447c56244e93db8efe266d"
+  },
+  {
+    "dataset": "ceitec",
+    "fold": 0,
+    "seed": 20261015,
+    "epoch": 50,
+    "checkpoint": "checkpoints/ceitec/fold0/seed20261015.pt",
+    "predictions": "results/reference/ceitec_fold0_seed20261015.npz",
+    "sha256": "086a801911af738e0a7ae252d1ed92e970346c4b668da36c5df96e67ca3a9073"
+  },
+  {
+    "dataset": "ceitec",
+    "fold": 0,
+    "seed": 20261016,
+    "epoch": 30,
+    "checkpoint": "checkpoints/ceitec/fold0/seed20261016.pt",
+    "predictions": "results/reference/ceitec_fold0_seed20261016.npz",
+    "sha256": "1370d9c22eba8bafb2a78e2fd0fca41fa2b41ecaa6951acec69f1ba222494e34"
+  },
+  {
+    "dataset": "ceitec",
+    "fold": 1,
+    "seed": 20261014,
+    "epoch": 20,
+    "checkpoint": "checkpoints/ceitec/fold1/seed20261014.pt",
+    "predictions": "results/reference/ceitec_fold1_seed20261014.npz",
+    "sha256": "9c095a2d7f97bc6618b09ea2f7bf35b51c6a8524990eea86462f4f665ab73f59"
+  },
+  {
+    "dataset": "ceitec",
+    "fold": 1,
+    "seed": 20261015,
+    "epoch": 50,
+    "checkpoint": "checkpoints/ceitec/fold1/seed20261015.pt",
+    "predictions": "results/reference/ceitec_fold1_seed20261015.npz",
+    "sha256": "1d0176ceaabed201029cd218a55a15ab172e4d3859556ddc1e032586ebd2dcc9"
+  },
+  {
+    "dataset": "ceitec",
+    "fold": 1,
+    "seed": 20261016,
+    "epoch": 20,
+    "checkpoint": "checkpoints/ceitec/fold1/seed20261016.pt",
+    "predictions": "results/reference/ceitec_fold1_seed20261016.npz",
+    "sha256": "7582944026ff7cf0dbe82ca3af217ca85dc831cecf59526df75824ed66540a89"
+  },
+  {
+    "dataset": "ceitec",
+    "fold": 2,
+    "seed": 20261014,
+    "epoch": 20,
+    "checkpoint": "checkpoints/ceitec/fold2/seed20261014.pt",
+    "predictions": "results/reference/ceitec_fold2_seed20261014.npz",
+    "sha256": "932a61a609c9ee1189a3f08c87737097dfbbe6b8385a47fb2395ca903856664e"
+  },
+  {
+    "dataset": "ceitec",
+    "fold": 2,
+    "seed": 20261015,
+    "epoch": 20,
+    "checkpoint": "checkpoints/ceitec/fold2/seed20261015.pt",
+    "predictions": "results/reference/ceitec_fold2_seed20261015.npz",
+    "sha256": "15ce8c551f96e281031cc31bfcf44db5d507cdf36452d6d8d30273195c9cab20"
+  },
+  {
+    "dataset": "ceitec",
+    "fold": 2,
+    "seed": 20261016,
+    "epoch": 20,
+    "checkpoint": "checkpoints/ceitec/fold2/seed20261016.pt",
+    "predictions": "results/reference/ceitec_fold2_seed20261016.npz",
+    "sha256": "7b030a845f3714ecf9f19a01d0115bdce889cb31e40f436cae5ce42124b82c4c"
+  }
+]
