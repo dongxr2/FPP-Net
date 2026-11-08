@@ -1,0 +1,20 @@
+[
+  {
+    "filename": "kaist-xm-processed-v1.zip",
+    "bytes": 81604370,
+    "sha256": "6e4126579a0abeaad7d1ecf96f459c2395c5773bdc4a29cbda5b43caa6c960c7",
+    "files": 18
+  },
+  {
+    "filename": "ceitec-xl-processed-v1.zip",
+    "bytes": 151659559,
+    "sha256": "c4fe75ad773a85ab8a2287b58bb53b6b91778ef8b4c422e86cf104d5ae7fbef0",
+    "files": 56
+  },
+  {
+    "filename": "kaist-audit-features-v1.zip",
+    "bytes": 12804629,
+    "sha256": "094dda2af842d9025ea1a438ea20eb79f6f5e5e3dc9375d690a726075bd40523",
+    "files": 1
+  }
+]

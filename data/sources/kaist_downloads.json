@@ -1,0 +1,20 @@
+[
+  {
+    "filename": "1.0kW.zip",
+    "url": "https://data.mendeley.com/public-files/datasets/rgn5brrgrn/files/9714abc1-441f-4bb3-bff2-78811996df44/file_downloaded",
+    "size": 1770532508,
+    "sha256": "3a7f64626b40cf7be46a220fabe4e62496b0a2700d0919bcf7f1205c97fa15aa"
+  },
+  {
+    "filename": "1.5kW.zip",
+    "url": "https://data.mendeley.com/public-files/datasets/rgn5brrgrn/files/f9cddf4c-1c95-46e4-8a5e-e763daba0673/file_downloaded",
+    "size": 2542599644,
+    "sha256": "5bb090bd7944974a9bcfa9e192e840e61d1bad561172b621670f7f4f8776c524"
+  },
+  {
+    "filename": "3.0kW.zip",
+    "url": "https://data.mendeley.com/public-files/datasets/rgn5brrgrn/files/2be8bdae-16e7-4636-97eb-ef5f56dda9f9/file_downloaded",
+    "size": 2660445808,
+    "sha256": "6cfd069bc23e9404b0dd0e9f46da1b773ef41c5370f6c8dbcde99de754008545"
+  }
+]
