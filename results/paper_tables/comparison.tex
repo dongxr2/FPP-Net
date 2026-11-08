@@ -1,0 +1,27 @@
+\begin{table}[htbp]
+\caption{Final diagnostic performance (balanced accuracy, \%).}\label{tab:comparison}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash\hsize=1.2\hsize}X*{4}{>{\centering\arraybackslash\hsize=0.95\hsize}X}}
+\toprule
+Method & KAIST window & KAIST record & CEITEC window & CEITEC record \\
+\midrule
+LR (spectral) & 59.60 & 63.89 & 86.17 & 94.44 \\
+SVM (RBF) & 51.54 & 50.00 & 69.77 & 71.30 \\
+Random forest & 47.75 & 50.00 & 53.51 & 52.78 \\
+Gradient boosting & 49.06 & 50.00 & 59.48 & 64.35 \\
+Ridge classifier & 60.17 & 63.89 & 90.89 & 94.44 \\
+LightGBM & 57.98 & 58.33 & 61.11 & 67.59 \\
+LR (time--frequency) & 47.69 & 47.22 & 91.60 & 99.07 \\
+MiniRocket & 56.25 & 55.56 & 89.21 & 88.89 \\
+CNN & 49.58 & 50.00 & 96.88 & 100.00 \\
+Residual CNN & 50.21 & 50.00 & 94.17 & 94.44 \\
+Transformer & 54.13 & 63.89 & 95.87 & 96.30 \\
+WDCNN-adapted & 40.06 & 44.44 & 81.50 & 88.89 \\
+InceptionTime-small & 50.00 & 50.00 & 96.70 & 98.15 \\
+Multiscale CNN & 37.88 & 41.67 & 97.09 & 99.07 \\
+FPP-Net & 57.38 & 75.00 & 96.47 & 100.00 \\
+\bottomrule
+\end{tabularx}
+\vspace{2pt}\par\footnotesize Stochastic methods use equal averaging of three independently trained seed models; deterministic classical pipelines use one fitted model per target fold. Every reported score is the unweighted mean over three target folds. All values are computed from the same held-out records for each dataset.
+\end{table}

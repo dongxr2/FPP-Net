@@ -1,0 +1,47 @@
+{
+  "review_date": "2026-11-08",
+  "reviewer_role": "independent paper architect/reviewer",
+  "claim_supported": "partial",
+  "confidence": "high",
+  "paper_claim_audit": "not rerun for the full manuscript in this supplementary review",
+  "scope": "Supplementary E1-E4 and frozen-checkpoint frequency-position analyses only; no training or manuscript modifications performed by reviewer.",
+  "implementation_verdict": "No material computational error found in the completed supplementary analyses. Their descriptive results are ready to report after replacing the draft's causal/over-concentrated interpretations.",
+  "checks_performed": [
+    "Read frozen protocol, full run.py, original manuscript supplementary sections, saved result JSONs and prediction arrays.",
+    "Independently recomputed window and record BA for all nine E2-E4 target folds from saved predictions; all match reported results.",
+    "Checked all six occlusion test-ID arrays against original frozen short-window splits; all match exactly, and test IDs are disjoint from training and inner-validation IDs.",
+    "Checked every fold uses exactly its three selected position_short checkpoints with matching test IDs.",
+    "Recomputed each fold's occlusion mean from per-window saved changes; matches JSON.",
+    "Baseline replay errors are at most 7.152557373046875e-07, below the prespecified 1e-4 tolerance."
+  ],
+  "what_results_support": [
+    "On the 45-record collection, LR reaches 98.83% window BA with random window sharing but 49.87% under leave-one-motor-out evaluation; high within-record performance does not establish cross-motor generalization.",
+    "Full-release leave-one-motor-out record BA is 48.81%; all three healthy records are false alarms, while 15/15 A, 20/20 B and 6/7 C fault records are detected. This is near-universal positive prediction, not successful fault discrimination.",
+    "Acquisition groups A/B are predictable to an equal-fold mean record BA of 85.71% and window BA of 86.87%, with record BA 57.14%, 100% and 100% across motor folds.",
+    "On the 18-record group-A subset, the same LR pipeline yields 59.60% window and 63.89% record BA, reproducing the existing baseline.",
+    "FPP-Net readout weight profiles are nonuniform but distributed: the largest 26/64 KAIST and 27/64 CEITEC positions account for half the normalized weight norm, versus 32 for a uniform profile.",
+    "Band masking shows frequency-dependent probability sensitivity. The correlations of mean normalized norms with the masked-band response profiles are 0.409 and 0.713, descriptively."
+  ],
+  "what_results_dont_support": [
+    "The E1-E2 gap is not a causal estimate attributable solely to channel/date confounding: record sharing, target motor, validation protocol and domain shift change together.",
+    "A/B classification does not prove acquisition hardware causes separation: group is associated with fault settings and health composition as well as channel/date.",
+    "E2-E4 differences are not an unbiased estimate of a generic benefit from cleaning; the evaluated record population changes.",
+    "The weight profiles are not concentrated on only a few frequencies; 'far from uniform' and 'concentrated at a few bands' overstate the 26/27-position result.",
+    "The explanations do not identify physical fault harmonics or show that the masked bands improve correct classification. Absolute probability changes measure sensitivity, including harmful responses, not accuracy or causal fault evidence.",
+    "Weight norms are not invariant feature importance and cannot alone establish learned mechanistic attribution. Occlusion is a feature-space intervention that need not correspond to a realizable raw signal.",
+    "A nominal 16-input-bin band is not the exact receptive field of one readout position: the 27-bin receptive fields overlap. These analyses complement the readout ablation but do not uniquely explain its performance difference."
+  ],
+  "required_manuscript_changes": [
+    "Replace all pending acquisition-group conclusions with descriptive protocol sensitivity and group predictability; explicitly report 3/3 healthy false alarms.",
+    "Specify that both norms and masks use 64 ordered indices, but masking partitions input bins and readout receptive fields overlap. Do not label a 16-bin mask as the exact readout receptive field.",
+    "State that weight norms average nine checkpoints, while masked effects use each fold's three-seed ensemble on that fold's held-out windows, average within fold then equally across folds.",
+    "Describe selectivity as distributed and frequency dependent. Report 26/27 and 0.409/0.713 without statistical-significance or causal claims.",
+    "Use named frequency intervals as model-sensitive bands, not verified stator-fault frequencies.",
+    "Remove the sentence claiming the profile itself explains the global-pooling performance loss; say it complements the ablation."
+  ],
+  "suggested_shortcut_conclusion_en": "On the full 45-record collection, the spectral LR achieved 98.83% window-level BA with a random 80/20 window split, compared with 49.87% under leave-one-motor-out evaluation. The latter yielded 48.81% record-level BA and misclassified all three healthy records, despite detecting 41 of 42 fault records. Acquisition-group recognition between A and B achieved 85.71% mean record-level BA across held-out motors. These results demonstrate strong evaluation-protocol dependence and predictable acquisition-group structure; they do not isolate acquisition configuration from the associated fault settings as the cause of the random-split performance.",
+  "suggested_position_conclusion_en": "Frequency preferences were distributed rather than restricted to a few positions: 26 of 64 positions on KAIST-XM and 27 on CEITEC-XL accounted for half of the mean normalized readout weight norm. Weight-norm and band-masking response profiles were positively correlated (r = 0.409 and 0.713, respectively). On KAIST-XM, masking 5.0125–5.2000 kHz caused the largest mean absolute probability change (0.306); on CEITEC-XL, the largest response occurred at 4.6924–4.7656 kHz (0.038). These descriptive sensitivity profiles complement the readout ablation without identifying the physical origin or diagnostic usefulness of each band.",
+  "missing_evidence": "No missing evidence blocks reporting the descriptive experiments. Stronger causal or physical-frequency claims would need controlled acquisition comparisons, fault-specific interventions, or additional recordings.",
+  "next_experiments_needed": "None required for the requested placeholder replacement when claims are revised to the supported descriptive scope.",
+  "routing_action": "Confirm computational results; revise claims before manuscript insertion. Do not retrain or retune based on held-out explanation maps."
+}

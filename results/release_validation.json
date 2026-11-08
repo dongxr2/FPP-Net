@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-08",
+  "all_74_records_rebuilt_from_raw_and_hash_matched": true,
+  "core_tests": 3,
+  "training_smoke_only": true,
+  "gpu_training_smoke": {
+    "dataset": "kaist",
+    "fold": 0,
+    "seed": 20261014,
+    "epochs": 1
+  },
+  "evaluation": {
+    "kaist": {
+      "window_BA_percent": 57.375,
+      "record_BA_percent": 75.0
+    },
+    "ceitec": {
+      "window_BA_percent": 96.46676703859227,
+      "record_BA_percent": 100.0
+    }
+  },
+  "lr": {
+    "kaist": {
+      "window_BA_percent": 59.59722222222222,
+      "record_BA_percent": 63.88888888888889
+    },
+    "ceitec": {
+      "window_BA_percent": 86.16898068654449,
+      "record_BA_percent": 94.44444444444443
+    }
+  },
+  "supplementary_exact_replay": true,
+  "frequency_exact_replay": true
+}

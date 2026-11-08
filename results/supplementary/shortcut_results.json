@@ -1,0 +1,1540 @@
+{
+  "E1": {
+    "window_BA": 98.82936507936509,
+    "C": 100,
+    "trials": [
+      {
+        "C": 0.1,
+        "score": 0.9876490657896441
+      },
+      {
+        "C": 1,
+        "score": 0.9915157126024524
+      },
+      {
+        "C": 10,
+        "score": 0.9935097305486139
+      },
+      {
+        "C": 100,
+        "score": 0.9937589827918841
+      }
+    ],
+    "train_records": 45,
+    "test_records": 45,
+    "overlap_records": 45
+  },
+  "E2": {
+    "window_BA": 49.86904761904762,
+    "record_BA": 48.80952380952382,
+    "folds": [
+      {
+        "window_BA": 48.76785714285714,
+        "record_BA": 50.0,
+        "records": [
+          {
+            "record": 0,
+            "y": 0,
+            "score": 0.9994328856676183,
+            "group": "A",
+            "fault_type": "healthy",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 1,
+            "y": 1,
+            "score": 0.9999999972619908,
+            "group": "B",
+            "fault_type": "intercoil",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 2,
+            "y": 1,
+            "score": 0.9999999983234462,
+            "group": "B",
+            "fault_type": "intercoil",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 3,
+            "y": 1,
+            "score": 0.9999999206828735,
+            "group": "B",
+            "fault_type": "interturn",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 4,
+            "y": 1,
+            "score": 0.9999999999999073,
+            "group": "A",
+            "fault_type": "intercoil",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 5,
+            "y": 1,
+            "score": 0.9999999864382755,
+            "group": "B",
+            "fault_type": "intercoil",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 6,
+            "y": 1,
+            "score": 0.6539966885449188,
+            "group": "A",
+            "fault_type": "interturn",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 7,
+            "y": 1,
+            "score": 0.9999998817834759,
+            "group": "A",
+            "fault_type": "intercoil",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 8,
+            "y": 1,
+            "score": 0.9999999934238026,
+            "group": "B",
+            "fault_type": "interturn",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 9,
+            "y": 1,
+            "score": 0.9999999976488071,
+            "group": "B",
+            "fault_type": "interturn",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 10,
+            "y": 1,
+            "score": 0.9999919771711666,
+            "group": "A",
+            "fault_type": "interturn",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 11,
+            "y": 1,
+            "score": 0.9999999979338983,
+            "group": "B",
+            "fault_type": "intercoil",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 12,
+            "y": 1,
+            "score": 0.9999999853080687,
+            "group": "B",
+            "fault_type": "interturn",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 13,
+            "y": 1,
+            "score": 0.9999576035304121,
+            "group": "A",
+            "fault_type": "interturn",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 14,
+            "y": 1,
+            "score": 0.99999999999997,
+            "group": "A",
+            "fault_type": "intercoil",
+            "motor_kw": 1.0
+          }
+        ],
+        "target": 0,
+        "C": 10,
+        "trials": [
+          {
+            "C": 0.1,
+            "score": [
+              69.64285714285714,
+              63.854166666666664
+            ]
+          },
+          {
+            "C": 1,
+            "score": [
+              69.64285714285714,
+              63.523809523809526
+            ]
+          },
+          {
+            "C": 10,
+            "score": [
+              69.64285714285714,
+              67.10119047619048
+            ]
+          },
+          {
+            "C": 100,
+            "score": [
+              69.64285714285714,
+              67.02380952380953
+            ]
+          }
+        ],
+        "train_records": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44
+        ],
+        "test_records": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "window_BA": 60.75000000000001,
+        "record_BA": 50.0,
+        "records": [
+          {
+            "record": 15,
+            "y": 0,
+            "score": 0.7246696597974166,
+            "group": "A",
+            "fault_type": "healthy",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 16,
+            "y": 1,
+            "score": 0.9297953692377371,
+            "group": "A",
+            "fault_type": "intercoil",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 17,
+            "y": 1,
+            "score": 0.999398792888442,
+            "group": "A",
+            "fault_type": "interturn",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 18,
+            "y": 1,
+            "score": 0.9992422609821603,
+            "group": "B",
+            "fault_type": "interturn",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 19,
+            "y": 1,
+            "score": 0.9991976547344069,
+            "group": "B",
+            "fault_type": "interturn",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 20,
+            "y": 1,
+            "score": 0.999031409042129,
+            "group": "B",
+            "fault_type": "intercoil",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 21,
+            "y": 1,
+            "score": 0.9879795288097686,
+            "group": "A",
+            "fault_type": "interturn",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 22,
+            "y": 1,
+            "score": 0.8638680906143018,
+            "group": "A",
+            "fault_type": "intercoil",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 23,
+            "y": 1,
+            "score": 0.9990943483246739,
+            "group": "B",
+            "fault_type": "interturn",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 24,
+            "y": 1,
+            "score": 0.9823069483307058,
+            "group": "A",
+            "fault_type": "interturn",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 25,
+            "y": 1,
+            "score": 0.9990537680264352,
+            "group": "B",
+            "fault_type": "intercoil",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 26,
+            "y": 1,
+            "score": 0.9986266227193723,
+            "group": "B",
+            "fault_type": "intercoil",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 27,
+            "y": 1,
+            "score": 0.9692707192787553,
+            "group": "A",
+            "fault_type": "intercoil",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 28,
+            "y": 1,
+            "score": 0.9990572821554444,
+            "group": "B",
+            "fault_type": "interturn",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 29,
+            "y": 1,
+            "score": 0.9990255984901026,
+            "group": "B",
+            "fault_type": "intercoil",
+            "motor_kw": 1.5
+          }
+        ],
+        "target": 1,
+        "C": 0.1,
+        "trials": [
+          {
+            "C": 0.1,
+            "score": [
+              50.0,
+              49.99702380952381
+            ]
+          },
+          {
+            "C": 1,
+            "score": [
+              50.0,
+              49.99702380952381
+            ]
+          },
+          {
+            "C": 10,
+            "score": [
+              50.0,
+              49.961309523809526
+            ]
+          },
+          {
+            "C": 100,
+            "score": [
+              50.0,
+              49.961309523809526
+            ]
+          }
+        ],
+        "train_records": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44
+        ],
+        "test_records": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "window_BA": 40.089285714285715,
+        "record_BA": 46.42857142857143,
+        "records": [
+          {
+            "record": 30,
+            "y": 0,
+            "score": 0.9987173290061226,
+            "group": "A",
+            "fault_type": "healthy",
+            "motor_kw": 3.0
+          },
+          {
+            "record": 31,
+            "y": 1,
+            "score": 0.7783794079666962,
+            "group": "C",
+            "fault_type": "interturn",
+            "motor_kw": 3.0
+          },
+          {
+            "record": 32,
+            "y": 1,
+            "score": 0.8376161534407023,
+            "group": "A",
+            "fault_type": "interturn",
+            "motor_kw": 3.0
+          },
+          {
+            "record": 33,
+            "y": 1,
+            "score": 0.9993956070413772,
+            "group": "B",
+            "fault_type": "interturn",
+            "motor_kw": 3.0
+          },
+          {
+            "record": 34,
+            "y": 1,
+            "score": 0.4329323720706039,
+            "group": "C",
+            "fault_type": "interturn",
+            "motor_kw": 3.0
+          },
+          {
+            "record": 35,
+            "y": 1,
+            "score": 0.9994608784410878,
+            "group": "B",
+            "fault_type": "interturn",
+            "motor_kw": 3.0
+          },
+          {
+            "record": 36,
+            "y": 1,
+            "score": 0.5065755891387013,
+            "group": "C",
+            "fault_type": "interturn",
+            "motor_kw": 3.0
+          },
+          {
+            "record": 37,
+            "y": 1,
+            "score": 0.9996586094167946,
+            "group": "A",
+            "fault_type": "interturn",
+            "motor_kw": 3.0
+          },
+          {
+            "record": 38,
+            "y": 1,
+            "score": 0.5187917928983576,
+            "group": "C",
+            "fault_type": "interturn",
+            "motor_kw": 3.0
+          },
+          {
+            "record": 39,
+            "y": 1,
+            "score": 0.999592267759136,
+            "group": "B",
+            "fault_type": "interturn",
+            "motor_kw": 3.0
+          },
+          {
+            "record": 40,
+            "y": 1,
+            "score": 0.583824987365502,
+            "group": "C",
+            "fault_type": "interturn",
+            "motor_kw": 3.0
+          },
+          {
+            "record": 41,
+            "y": 1,
+            "score": 0.6732647525336846,
+            "group": "C",
+            "fault_type": "interturn",
+            "motor_kw": 3.0
+          },
+          {
+            "record": 42,
+            "y": 1,
+            "score": 0.9993295372302092,
+            "group": "A",
+            "fault_type": "interturn",
+            "motor_kw": 3.0
+          },
+          {
+            "record": 43,
+            "y": 1,
+            "score": 0.7185708411979866,
+            "group": "C",
+            "fault_type": "interturn",
+            "motor_kw": 3.0
+          },
+          {
+            "record": 44,
+            "y": 1,
+            "score": 0.999498282357623,
+            "group": "B",
+            "fault_type": "interturn",
+            "motor_kw": 3.0
+          }
+        ],
+        "target": 2,
+        "C": 0.1,
+        "trials": [
+          {
+            "C": 0.1,
+            "score": [
+              50.0,
+              50.07738095238095
+            ]
+          },
+          {
+            "C": 1,
+            "score": [
+              48.214285714285715,
+              49.54464285714286
+            ]
+          },
+          {
+            "C": 10,
+            "score": [
+              50.0,
+              49.583333333333336
+            ]
+          },
+          {
+            "C": 100,
+            "score": [
+              50.0,
+              49.5625
+            ]
+          }
+        ],
+        "train_records": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "test_records": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44
+        ]
+      }
+    ],
+    "detected": {
+      "A": 15,
+      "B": 20,
+      "C": 6
+    },
+    "healthy_false_alarms": 3
+  },
+  "E3": {
+    "window_BA": 86.86507936507935,
+    "record_BA": 85.71428571428571,
+    "folds": [
+      {
+        "window_BA": 60.59523809523809,
+        "record_BA": 57.14285714285714,
+        "records": [
+          {
+            "record": 0,
+            "y": 0,
+            "score": 0.6028764582961185,
+            "group": "A",
+            "fault_type": "healthy",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 1,
+            "y": 1,
+            "score": 0.9997525278122746,
+            "group": "B",
+            "fault_type": "intercoil",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 2,
+            "y": 1,
+            "score": 0.9997457601985767,
+            "group": "B",
+            "fault_type": "intercoil",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 3,
+            "y": 1,
+            "score": 0.9997412237745785,
+            "group": "B",
+            "fault_type": "interturn",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 4,
+            "y": 0,
+            "score": 0.9361710708225329,
+            "group": "A",
+            "fault_type": "intercoil",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 5,
+            "y": 1,
+            "score": 0.9997467484822407,
+            "group": "B",
+            "fault_type": "intercoil",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 6,
+            "y": 0,
+            "score": 0.3201818801757553,
+            "group": "A",
+            "fault_type": "interturn",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 7,
+            "y": 0,
+            "score": 0.8429648851329764,
+            "group": "A",
+            "fault_type": "intercoil",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 8,
+            "y": 1,
+            "score": 0.9997484459891185,
+            "group": "B",
+            "fault_type": "interturn",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 9,
+            "y": 1,
+            "score": 0.9997535749261368,
+            "group": "B",
+            "fault_type": "interturn",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 10,
+            "y": 0,
+            "score": 0.7023891007708537,
+            "group": "A",
+            "fault_type": "interturn",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 11,
+            "y": 1,
+            "score": 0.9997431893353991,
+            "group": "B",
+            "fault_type": "intercoil",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 12,
+            "y": 1,
+            "score": 0.9997449906891753,
+            "group": "B",
+            "fault_type": "interturn",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 13,
+            "y": 0,
+            "score": 0.6308325398786343,
+            "group": "A",
+            "fault_type": "interturn",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 14,
+            "y": 0,
+            "score": 0.8835204072979692,
+            "group": "A",
+            "fault_type": "intercoil",
+            "motor_kw": 1.0
+          }
+        ],
+        "target": 0,
+        "C": 0.1,
+        "trials": [
+          {
+            "C": 0.1,
+            "score": [
+              100.0,
+              100.0
+            ]
+          },
+          {
+            "C": 1,
+            "score": [
+              100.0,
+              100.0
+            ]
+          },
+          {
+            "C": 10,
+            "score": [
+              100.0,
+              100.0
+            ]
+          },
+          {
+            "C": 100,
+            "score": [
+              100.0,
+              100.0
+            ]
+          }
+        ],
+        "train_records": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          32,
+          33,
+          35,
+          37,
+          39,
+          42,
+          44
+        ],
+        "test_records": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "window_BA": 100.0,
+        "record_BA": 100.0,
+        "records": [
+          {
+            "record": 15,
+            "y": 0,
+            "score": 0.001046995866386295,
+            "group": "A",
+            "fault_type": "healthy",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 16,
+            "y": 0,
+            "score": 0.00062170603462786,
+            "group": "A",
+            "fault_type": "intercoil",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 17,
+            "y": 0,
+            "score": 0.0006151917700217144,
+            "group": "A",
+            "fault_type": "interturn",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 18,
+            "y": 1,
+            "score": 0.9997685324540894,
+            "group": "B",
+            "fault_type": "interturn",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 19,
+            "y": 1,
+            "score": 0.9997798109513334,
+            "group": "B",
+            "fault_type": "interturn",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 20,
+            "y": 1,
+            "score": 0.9997610122831645,
+            "group": "B",
+            "fault_type": "intercoil",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 21,
+            "y": 0,
+            "score": 0.0014837873810920395,
+            "group": "A",
+            "fault_type": "interturn",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 22,
+            "y": 0,
+            "score": 0.0011241035719970342,
+            "group": "A",
+            "fault_type": "intercoil",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 23,
+            "y": 1,
+            "score": 0.999769243368052,
+            "group": "B",
+            "fault_type": "interturn",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 24,
+            "y": 0,
+            "score": 0.0013646462454301313,
+            "group": "A",
+            "fault_type": "interturn",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 25,
+            "y": 1,
+            "score": 0.9997587893500373,
+            "group": "B",
+            "fault_type": "intercoil",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 26,
+            "y": 1,
+            "score": 0.9997608351446878,
+            "group": "B",
+            "fault_type": "intercoil",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 27,
+            "y": 0,
+            "score": 0.0009238220873608211,
+            "group": "A",
+            "fault_type": "intercoil",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 28,
+            "y": 1,
+            "score": 0.999760705813675,
+            "group": "B",
+            "fault_type": "interturn",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 29,
+            "y": 1,
+            "score": 0.9997632916264217,
+            "group": "B",
+            "fault_type": "intercoil",
+            "motor_kw": 1.5
+          }
+        ],
+        "target": 1,
+        "C": 0.1,
+        "trials": [
+          {
+            "C": 0.1,
+            "score": [
+              75.0,
+              76.8452380952381
+            ]
+          },
+          {
+            "C": 1,
+            "score": [
+              75.0,
+              76.81547619047619
+            ]
+          },
+          {
+            "C": 10,
+            "score": [
+              75.0,
+              76.83928571428572
+            ]
+          },
+          {
+            "C": 100,
+            "score": [
+              75.0,
+              76.83928571428572
+            ]
+          }
+        ],
+        "train_records": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          30,
+          32,
+          33,
+          35,
+          37,
+          39,
+          42,
+          44
+        ],
+        "test_records": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "window_BA": 100.0,
+        "record_BA": 100.0,
+        "records": [
+          {
+            "record": 30,
+            "y": 0,
+            "score": 6.637951716325613e-05,
+            "group": "A",
+            "fault_type": "healthy",
+            "motor_kw": 3.0
+          },
+          {
+            "record": 32,
+            "y": 0,
+            "score": 4.632888894318812e-05,
+            "group": "A",
+            "fault_type": "interturn",
+            "motor_kw": 3.0
+          },
+          {
+            "record": 33,
+            "y": 1,
+            "score": 0.9997716039669933,
+            "group": "B",
+            "fault_type": "interturn",
+            "motor_kw": 3.0
+          },
+          {
+            "record": 35,
+            "y": 1,
+            "score": 0.9997596871196777,
+            "group": "B",
+            "fault_type": "interturn",
+            "motor_kw": 3.0
+          },
+          {
+            "record": 37,
+            "y": 0,
+            "score": 6.727973395572269e-05,
+            "group": "A",
+            "fault_type": "interturn",
+            "motor_kw": 3.0
+          },
+          {
+            "record": 39,
+            "y": 1,
+            "score": 0.9997457681014369,
+            "group": "B",
+            "fault_type": "interturn",
+            "motor_kw": 3.0
+          },
+          {
+            "record": 42,
+            "y": 0,
+            "score": 8.545019951865332e-05,
+            "group": "A",
+            "fault_type": "interturn",
+            "motor_kw": 3.0
+          },
+          {
+            "record": 44,
+            "y": 1,
+            "score": 0.9997626161742725,
+            "group": "B",
+            "fault_type": "interturn",
+            "motor_kw": 3.0
+          }
+        ],
+        "target": 2,
+        "C": 0.1,
+        "trials": [
+          {
+            "C": 0.1,
+            "score": [
+              78.57142857142857,
+              79.7797619047619
+            ]
+          },
+          {
+            "C": 1,
+            "score": [
+              78.57142857142857,
+              79.74404761904762
+            ]
+          },
+          {
+            "C": 10,
+            "score": [
+              78.57142857142857,
+              79.75
+            ]
+          },
+          {
+            "C": 100,
+            "score": [
+              78.57142857142857,
+              79.75
+            ]
+          }
+        ],
+        "train_records": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "test_records": [
+          30,
+          32,
+          33,
+          35,
+          37,
+          39,
+          42,
+          44
+        ]
+      }
+    ]
+  },
+  "E4": {
+    "window_BA": 59.59722222222222,
+    "record_BA": 63.88888888888889,
+    "folds": [
+      {
+        "window_BA": 49.48611111111111,
+        "record_BA": 50.0,
+        "records": [
+          {
+            "record": 0,
+            "y": 0,
+            "score": 0.9999999999705369,
+            "group": "A",
+            "fault_type": "healthy",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 4,
+            "y": 1,
+            "score": 1.0,
+            "group": "A",
+            "fault_type": "intercoil",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 6,
+            "y": 1,
+            "score": 0.938744346003867,
+            "group": "A",
+            "fault_type": "interturn",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 7,
+            "y": 1,
+            "score": 1.0,
+            "group": "A",
+            "fault_type": "intercoil",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 10,
+            "y": 1,
+            "score": 1.0,
+            "group": "A",
+            "fault_type": "interturn",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 13,
+            "y": 1,
+            "score": 1.0,
+            "group": "A",
+            "fault_type": "interturn",
+            "motor_kw": 1.0
+          },
+          {
+            "record": 14,
+            "y": 1,
+            "score": 1.0,
+            "group": "A",
+            "fault_type": "intercoil",
+            "motor_kw": 1.0
+          }
+        ],
+        "target": 0,
+        "C": 100,
+        "trials": [
+          {
+            "C": 0.1,
+            "score": [
+              54.16666666666667,
+              54.576388888888886
+            ]
+          },
+          {
+            "C": 1,
+            "score": [
+              54.16666666666667,
+              54.97222222222222
+            ]
+          },
+          {
+            "C": 10,
+            "score": [
+              54.16666666666667,
+              55.23611111111111
+            ]
+          },
+          {
+            "C": 100,
+            "score": [
+              54.16666666666667,
+              55.50694444444444
+            ]
+          }
+        ],
+        "train_records": [
+          15,
+          16,
+          17,
+          21,
+          22,
+          24,
+          27,
+          30,
+          32,
+          37,
+          42
+        ],
+        "test_records": [
+          0,
+          4,
+          6,
+          7,
+          10,
+          13,
+          14
+        ]
+      },
+      {
+        "window_BA": 79.33333333333333,
+        "record_BA": 91.66666666666667,
+        "records": [
+          {
+            "record": 15,
+            "y": 0,
+            "score": 0.2304161259557777,
+            "group": "A",
+            "fault_type": "healthy",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 16,
+            "y": 1,
+            "score": 0.6205200462338941,
+            "group": "A",
+            "fault_type": "intercoil",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 17,
+            "y": 1,
+            "score": 0.9903811317355996,
+            "group": "A",
+            "fault_type": "interturn",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 21,
+            "y": 1,
+            "score": 0.9095221635990983,
+            "group": "A",
+            "fault_type": "interturn",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 22,
+            "y": 1,
+            "score": 0.4374926537001184,
+            "group": "A",
+            "fault_type": "intercoil",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 24,
+            "y": 1,
+            "score": 0.7572790987868357,
+            "group": "A",
+            "fault_type": "interturn",
+            "motor_kw": 1.5
+          },
+          {
+            "record": 27,
+            "y": 1,
+            "score": 0.6458849683311223,
+            "group": "A",
+            "fault_type": "intercoil",
+            "motor_kw": 1.5
+          }
+        ],
+        "target": 1,
+        "C": 0.1,
+        "trials": [
+          {
+            "C": 0.1,
+            "score": [
+              50.0,
+              50.0
+            ]
+          },
+          {
+            "C": 1,
+            "score": [
+              50.0,
+              50.0
+            ]
+          },
+          {
+            "C": 10,
+            "score": [
+              50.0,
+              50.0
+            ]
+          },
+          {
+            "C": 100,
+            "score": [
+              50.0,
+              50.0
+            ]
+          }
+        ],
+        "train_records": [
+          0,
+          4,
+          6,
+          7,
+          10,
+          13,
+          14,
+          30,
+          32,
+          37,
+          42
+        ],
+        "test_records": [
+          15,
+          16,
+          17,
+          21,
+          22,
+          24,
+          27
+        ]
+      },
+      {
+        "window_BA": 49.97222222222222,
+        "record_BA": 50.0,
+        "records": [
+          {
+            "record": 30,
+            "y": 0,
+            "score": 0.9999999999999807,
+            "group": "A",
+            "fault_type": "healthy",
+            "motor_kw": 3.0
+          },
+          {
+            "record": 32,
+            "y": 1,
+            "score": 0.9988711833694165,
+            "group": "A",
+            "fault_type": "interturn",
+            "motor_kw": 3.0
+          },
+          {
+            "record": 37,
+            "y": 1,
+            "score": 0.9999999973615833,
+            "group": "A",
+            "fault_type": "interturn",
+            "motor_kw": 3.0
+          },
+          {
+            "record": 42,
+            "y": 1,
+            "score": 0.9999999931050199,
+            "group": "A",
+            "fault_type": "interturn",
+            "motor_kw": 3.0
+          }
+        ],
+        "target": 2,
+        "C": 100,
+        "trials": [
+          {
+            "C": 0.1,
+            "score": [
+              54.16666666666667,
+              54.013888888888886
+            ]
+          },
+          {
+            "C": 1,
+            "score": [
+              54.16666666666667,
+              54.20833333333333
+            ]
+          },
+          {
+            "C": 10,
+            "score": [
+              50.0,
+              52.74305555555556
+            ]
+          },
+          {
+            "C": 100,
+            "score": [
+              54.16666666666667,
+              55.13888888888889
+            ]
+          }
+        ],
+        "train_records": [
+          0,
+          4,
+          6,
+          7,
+          10,
+          13,
+          14,
+          15,
+          16,
+          17,
+          21,
+          22,
+          24,
+          27
+        ],
+        "test_records": [
+          30,
+          32,
+          37,
+          42
+        ]
+      }
+    ]
+  }
+}

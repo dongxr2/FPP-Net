@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+\caption{CEITEC load-disjoint partitions and retained window counts.}\label{tab:splits}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{\textwidth}{lXXXr}
+\toprule
+Target & Train loads (Nm) & Validation loads (Nm) & Test loads (Nm) & Windows: train/val/test \\
+\midrule
+Low & 15, 25, 30 & 20, 35 & 0, 5, 10 & 2520/1676/2521 \\
+Middle & 0, 5, 25, 30 & 10, 35 & 15, 20 & 3361/1676/1680 \\
+High & 0, 5, 15 & 10, 20 & 25, 30, 35 & 2521/1680/2516 \\
+\bottomrule
+\end{tabularx}
+\vspace{2pt}\par\footnotesize Each load contributes seven records. Training, validation and test records are mutually exclusive within each target fold.
+\end{table}

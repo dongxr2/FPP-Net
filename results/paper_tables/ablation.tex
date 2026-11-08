@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\caption{Component and readout ablations with three-seed averaging (balanced accuracy, \%).}\label{tab:ablation}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{\textwidth}{Xrrrr}
+\toprule
+Configuration & \shortstack{KAIST\\window} & \shortstack{KAIST\\record} & \shortstack{CEITEC\\window} & \shortstack{CEITEC\\record} \\
+\midrule
+Full FPP-Net & 57.38 & 75.00 & 96.47 & 100.00 \\
+Global pooling head & 46.86 & 50.00 & 94.81 & 97.22 \\
+Relative log power only & 64.12 & 63.89 & 95.91 & 97.22 \\
+Local residual only & 49.89 & 50.00 & 94.21 & 94.44 \\
+Restored amplitude & 53.10 & 58.33 & 93.99 & 94.44 \\
+\bottomrule
+\end{tabularx}
+\vspace{2pt}\par\footnotesize All variants retain the same source-selection protocol. The alternative global head has a different hidden-layer layout and approximately matched parameter count.
+\end{table}
