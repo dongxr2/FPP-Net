@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this software and the original KAIST and CEITEC datasets when using the code or derived evaluation data."
+type: software
+title: "FPP-Net: Cross-Domain PMSM Stator Fault Detection"
+version: 0.1.0
+date-released: 2026-11-08
+authors:
+  - family-names: Liu
+    given-names: Chunpeng
+  - family-names: Dong
+    given-names: Xiaorui
+  - family-names: Guo
+    given-names: Yuze
+  - family-names: Wang
+    given-names: Huayu
+  - family-names: Lin
+    given-names: Zekai
+license: MIT
+abstract: "Lightweight frequency-position-preserving classification and frozen cross-motor/cross-load evaluation protocols derived from public PMSM measurements. Data retain their original CC BY 4.0 license."

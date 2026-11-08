@@ -1,0 +1,2 @@
+# Optional LightGBM baseline; not needed for FPP-Net or the other commands.
+lightgbm==4.6.0
